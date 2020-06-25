@@ -1,0 +1,20 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "nrwlSchematicsDemo",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "nrwl-schematics-demo",
+      "kebab-case"
+    ]
+  },
+  "linterOptions": {
+    "exclude": ["!**/*"]
+  }
+}
